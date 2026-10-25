@@ -1,0 +1,11 @@
+__pycache__/
+.ipynb_checkpoints/
+mlruns/
+mlartifacts/
+*.db
+Xtrain.csv
+Xtest.csv
+ytrain.csv
+ytest.csv
+feature_importances.csv
+mlruns_local/

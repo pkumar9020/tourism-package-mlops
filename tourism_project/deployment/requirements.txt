@@ -1,0 +1,9 @@
+# Dependencies for the Streamlit app on Streamlit Community Cloud.
+# Versions are pinned to EXACTLY what the GitHub Actions pipeline uses for
+# training, so the committed joblib model unpickles without version errors.
+streamlit==1.45.1
+pandas==2.2.3
+numpy==2.2.6
+scikit-learn==1.6.1
+xgboost==2.1.4
+joblib==1.4.2

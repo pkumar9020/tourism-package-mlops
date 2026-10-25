@@ -1,0 +1,9 @@
+# Dependencies for the GitHub Actions ML pipeline
+# (data registration -> data preparation -> model training & tracking).
+# Pinned for reproducible runs; ML library versions match the deployment app.
+pandas==2.2.3
+numpy==2.2.6
+scikit-learn==1.6.1
+xgboost==2.1.4
+joblib==1.4.2
+mlflow==3.0.1
