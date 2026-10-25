@@ -1,0 +1,28 @@
+{
+  "best_params": {
+    "colsample_bytree": 0.6,
+    "learning_rate": 0.1,
+    "max_depth": 7,
+    "n_estimators": 200,
+    "subsample": 1.0
+  },
+  "best_cv_f1": 0.7858,
+  "metrics": {
+    "train": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "test": {
+      "accuracy": 0.939,
+      "precision": 0.8681,
+      "recall": 0.8065,
+      "f1": 0.8361,
+      "roc_auc": 0.9599
+    }
+  },
+  "mlflow_run_id": "693d7e3c3e534312ba7d0758a48a6c10",
+  "git_commit": "c1a28fac65f70ac9e861df97a8d6b9b456469cbd"
+}
